@@ -116,3 +116,4 @@ InitTestScene*.unity*
 # EXTRA
 *.meta
 *.DS_Store
+Assets/Resources/*

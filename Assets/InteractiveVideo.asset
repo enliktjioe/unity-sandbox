@@ -1,0 +1,1001 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce372e11555dd74a9f16172c7054bf8, type: 3}
+  m_Name: InteractiveVideo
+  m_EditorClassIdentifier: ArcweavePlugin::Arcweave.ArcweaveProjectAsset
+  importSource: 0
+  projectJsonFile: {fileID: 4900000, guid: 1a187b03f95c1426d928cea60f5a8409, type: 3}
+  userAPIKey: 
+  projectHash: 
+  locale: 
+  fallbackLocales: 0
+  downloadMedia: 0
+  mediaOwnerGuid: 
+  mediaFolderGuid: 
+  downloadedMedia: []
+  <Project>k__BackingField:
+    <name>k__BackingField: Piece of Cake
+    <Boards>k__BackingField:
+    - rid: 7630594521570739152
+    - rid: 7630594521570739153
+    <components>k__BackingField: []
+    <GlobalVariables>k__BackingField:
+    - rid: 7630594521570739154
+    - rid: 7630594521570739155
+    - rid: 7630594521570739156
+    - rid: 7630594521570739157
+    - rid: 7630594521570739158
+    - rid: 7630594521570739159
+    _startingElementId: 8c73be17-d76e-4fba-9c53-56b1023c5bf2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7630594521570739152
+      type: {class: Board, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 5a786fbb-56fb-4223-b120-dfd02a1f6346
+        <CustomId>k__BackingField: main_board
+        <Name>k__BackingField: Main Board
+        <Nodes>k__BackingField:
+        - rid: 7630594521570739160
+        - rid: 7630594521570739161
+        - rid: 7630594521570739162
+        - rid: 7630594521570739163
+        - rid: 7630594521570739164
+        - rid: 7630594521570739165
+        - rid: 7630594521570739166
+        - rid: 7630594521570739167
+        - rid: 7630594521570739168
+        - rid: 7630594521570739169
+        - rid: 7630594521570739170
+        - rid: 7630594521570739171
+        - rid: 7630594521570739172
+        - rid: 7630594521570739173
+        - rid: 7630594521570739174
+        - rid: 7630594521570739175
+        - rid: 7630594521570739176
+        - rid: 7630594521570739177
+        <Notes>k__BackingField:
+        - <Pos>k__BackingField: {x: 8740, y: 10100}
+          <RawContent>k__BackingField: <p>This project demonstrates how you can create a short interactive movie using <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/project-items/assets/video">video assets</a>.</p><p>If you are completely new to Arcweave, you'd better start by recreating and studying the <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/workspaces/projects#project-templates">project template</a> called <strong>Interactive Fiction Example</strong>.</p>
+          <ColorTheme>k__BackingField: lightBlue
+        - <Pos>k__BackingField: {x: 9060, y: 10420}
+          <RawContent>k__BackingField: <p>In this project, each element has a video asset as cover. Go to your <strong>Assets</strong> section (left sidebar, top) to preview all of them.</p>
+          <ColorTheme>k__BackingField: cyan
+        - <Pos>k__BackingField: {x: 9720, y: 10020}
+          <RawContent>k__BackingField: <p>Double click the video attachment to configure its <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/project-items/assets/video#playback-behavior">playback behavior</a>.</p>
+          <ColorTheme>k__BackingField: orange
+        - <Pos>k__BackingField: {x: 10340, y: 10080}
+          <RawContent>k__BackingField: <p>Use <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/project-items/variables/overview">variables</a> or the <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/project-items/arcscript#visits">visits() function</a> to create conditions for your <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/project-items/branches">branches</a>.</p>
+          <ColorTheme>k__BackingField: cyan
+        <Variables>k__BackingField: []
+        <Attributes>k__BackingField: []
+    - rid: 7630594521570739153
+      type: {class: Board, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: a2f7b06f-5bae-4a41-b7a8-a2f8dea9d7ef
+        <CustomId>k__BackingField: dialogue
+        <Name>k__BackingField: Dialogue
+        <Nodes>k__BackingField:
+        - rid: 7630594521570739178
+        - rid: 7630594521570739179
+        - rid: 7630594521570739180
+        - rid: 7630594521570739181
+        - rid: 7630594521570739182
+        - rid: 7630594521570739183
+        - rid: 7630594521570739184
+        - rid: 7630594521570739185
+        - rid: 7630594521570739186
+        - rid: 7630594521570739187
+        - rid: 7630594521570739188
+        - rid: 7630594521570739189
+        - rid: 7630594521570739190
+        - rid: 7630594521570739191
+        - rid: 7630594521570739192
+        - rid: 7630594521570739193
+        - rid: 7630594521570739194
+        - rid: 7630594521570739195
+        - rid: 7630594521570739196
+        - rid: 7630594521570739197
+        - rid: 7630594521570739198
+        - rid: 7630594521570739199
+        - rid: 7630594523290140672
+        - rid: 7630594523290140673
+        - rid: 7630594523290140674
+        - rid: 7630594523290140675
+        - rid: 7630594523290140676
+        - rid: 7630594523290140677
+        - rid: 7630594523290140678
+        - rid: 7630594523290140679
+        - rid: 7630594523290140680
+        - rid: 7630594523290140681
+        <Notes>k__BackingField:
+        - <Pos>k__BackingField: {x: 2560, y: 760}
+          <RawContent>k__BackingField: <p>Use <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.arcweave.com/project-items/jumpers">jumpers</a> to keep your boards clean. Not necessary in such a small project, but it's good practice.</p>
+          <ColorTheme>k__BackingField: cyan
+        <Variables>k__BackingField: []
+        <Attributes>k__BackingField: []
+    - rid: 7630594521570739154
+      type: {class: Variable, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Name>k__BackingField: crimeScene_woodenSpoon
+        <Id>k__BackingField: 06cbbae8-3841-4fe0-9528-7b87ac1685de
+        <Parent>k__BackingField:
+          rid: -2
+        valueSerialized: bFalse
+        parentIdSerialized: 
+        _typeName: System.Boolean
+        defaultValueSerialized: bFalse
+    - rid: 7630594521570739155
+      type: {class: Variable, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Name>k__BackingField: crimeScene_topShelf
+        <Id>k__BackingField: 60aba271-48ac-4065-8650-dc5e0fafca7c
+        <Parent>k__BackingField:
+          rid: -2
+        valueSerialized: bFalse
+        parentIdSerialized: 
+        _typeName: System.Boolean
+        defaultValueSerialized: bFalse
+    - rid: 7630594521570739156
+      type: {class: Variable, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Name>k__BackingField: crimeScene_marksPhoto
+        <Id>k__BackingField: 6f038fc0-9363-43e0-b3f9-3afa867797e5
+        <Parent>k__BackingField:
+          rid: -2
+        valueSerialized: bFalse
+        parentIdSerialized: 
+        _typeName: System.Boolean
+        defaultValueSerialized: bFalse
+    - rid: 7630594521570739157
+      type: {class: Variable, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Name>k__BackingField: bobby_introduced
+        <Id>k__BackingField: 949003d0-696e-493d-8d33-6519f6677ef2
+        <Parent>k__BackingField:
+          rid: -2
+        valueSerialized: bFalse
+        parentIdSerialized: 
+        _typeName: System.Boolean
+        defaultValueSerialized: bFalse
+    - rid: 7630594521570739158
+      type: {class: Variable, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Name>k__BackingField: A_woodenSpoon
+        <Id>k__BackingField: c3baeefb-bed4-4043-ad8c-6ab2a490b69d
+        <Parent>k__BackingField:
+          rid: -2
+        valueSerialized: bFalse
+        parentIdSerialized: 
+        _typeName: System.Boolean
+        defaultValueSerialized: bFalse
+    - rid: 7630594521570739159
+      type: {class: Variable, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Name>k__BackingField: A_photo
+        <Id>k__BackingField: ec83abf1-17d8-4ec7-a048-787a44b0f6db
+        <Parent>k__BackingField:
+          rid: -2
+        valueSerialized: bFalse
+        parentIdSerialized: 
+        _typeName: System.Boolean
+        defaultValueSerialized: bFalse
+    - rid: 7630594521570739160
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 92e0a283-527e-4bb6-b114-983290107283
+        <Pos>k__BackingField: {x: 9720, y: 10840}
+        <Title>k__BackingField: <p>Navigation Loop</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: brown
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_6.mp4
+          <assetId>k__BackingField: 291066ba-986c-4b0b-83b2-be53c4f79a01
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: e42c4664-c09b-4db5-b3f2-5b6f085f6acc
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739160
+          <Target>k__BackingField:
+            rid: 7630594521570739163
+        - <Id>k__BackingField: 52dee7c6-58e7-4fc5-a409-72387506be62
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739160
+          <Target>k__BackingField:
+            rid: 7630594521570739169
+    - rid: 7630594521570739161
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 8c73be17-d76e-4fba-9c53-56b1023c5bf2
+        <Pos>k__BackingField: {x: 9060, y: 10100}
+        <Title>k__BackingField: <p>Crime Discovered</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_1.mp4
+          <assetId>k__BackingField: 4b142b57-9532-42cc-bc02-ffadf06c805d
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: ed2251fc-8fd9-4f2e-8142-8069269325d8
+          <RawLabel>k__BackingField: <p>Begin the investigation.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739161
+          <Target>k__BackingField:
+            rid: 7630594521570739163
+    - rid: 7630594521570739162
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: bf36267a-1334-4661-9ada-22c7a7ade1b0
+        <Pos>k__BackingField: {x: 11100, y: 10540}
+        <Title>k__BackingField: <p>Inspect the plate with the cake remains.</p>
+        <RawContent>k__BackingField: <pre><code>crimeScene_woodenSpoon = true</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_5.mp4
+          <assetId>k__BackingField: b43cc750-8c89-4aea-a2ce-925d178b30bf
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 00ce00ec-7c10-4d43-b771-44dd508e28d2
+          <RawLabel>k__BackingField: <p>Back.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739162
+          <Target>k__BackingField:
+            rid: 7630594521570739170
+    - rid: 7630594521570739163
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: affcc943-41d2-43ca-84f3-dedab7752837
+        <Pos>k__BackingField: {x: 9720, y: 10120}
+        <Title>k__BackingField: <p>Investigate the crime scene.</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: orange
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_2.mp4
+          <assetId>k__BackingField: 82b8f2d6-9c72-4443-9fc8-fc1fe46f6054
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 0537260b-d35e-494c-89f2-80e315b93946
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739163
+          <Target>k__BackingField:
+            rid: 7630594521570739168
+        - <Id>k__BackingField: f911d4e0-71d8-4de9-bbe4-a607a57dc18d
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739163
+          <Target>k__BackingField:
+            rid: 7630594521570739167
+        - <Id>k__BackingField: 53c334e4-0edf-4786-b8f8-187d2e09634b
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739163
+          <Target>k__BackingField:
+            rid: 7630594521570739166
+        - <Id>k__BackingField: c142e371-6a26-471a-bb4d-5cbb1010fcbe
+          <RawLabel>k__BackingField: <p>Exit kitchen.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739163
+          <Target>k__BackingField:
+            rid: 7630594521570739160
+    - rid: 7630594521570739164
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 0097cd5e-1b06-4710-a51f-5e0eb2e562e7
+        <Pos>k__BackingField: {x: 11100, y: 10180}
+        <Title>k__BackingField: <p>Examine the cupboard's interior.</p>
+        <RawContent>k__BackingField: <pre><code>crimeScene_topShelf = true</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_3.mp4
+          <assetId>k__BackingField: fdf92394-f475-47e0-b351-d39d146d82c2
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 5a1ad405-ac4a-4bdb-99a6-c3309af2ddcd
+          <RawLabel>k__BackingField: <p>Back.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739164
+          <Target>k__BackingField:
+            rid: 7630594521570739170
+    - rid: 7630594521570739165
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 33eb7245-cf53-4652-a53c-b666b115858e
+        <Pos>k__BackingField: {x: 11100, y: 9820}
+        <Title>k__BackingField: <p>Examine the kitchen chairs</p>
+        <RawContent>k__BackingField: <pre><code>crimeScene_marksPhoto = true</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_4.mp4
+          <assetId>k__BackingField: 534dc3c6-ec02-4fda-82b7-2167a2583d39
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: beb69ebd-4f1d-4df3-bd5e-d10d57b06278
+          <RawLabel>k__BackingField: <p>Back.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739165
+          <Target>k__BackingField:
+            rid: 7630594521570739170
+    - rid: 7630594521570739166
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 55025946-a65f-4448-a4e2-b5b2f32b3e43
+        <Pos>k__BackingField: {x: 10340, y: 10260}
+        <Conditions>k__BackingField:
+        - rid: 7630594521570739173
+        <colorTheme>k__BackingField: cyan
+    - rid: 7630594521570739167
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 9383067d-77f4-441b-a67b-7be1d5f8c09a
+        <Pos>k__BackingField: {x: 10340, y: 10340}
+        <Conditions>k__BackingField:
+        - rid: 7630594521570739174
+        <colorTheme>k__BackingField: cyan
+    - rid: 7630594521570739168
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: ff47e45f-a79d-4b03-bd2b-a7de1a6d7781
+        <Pos>k__BackingField: {x: 10340, y: 10180}
+        <Conditions>k__BackingField:
+        - rid: 7630594521570739175
+        <colorTheme>k__BackingField: cyan
+    - rid: 7630594521570739169
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 0e34bcad-59d2-4132-a6b5-9658ef4998b8
+        <Pos>k__BackingField: {x: 10340, y: 10920}
+        <Conditions>k__BackingField:
+        - rid: 7630594521570739176
+        - rid: 7630594521570739177
+        <colorTheme>k__BackingField: red
+    - rid: 7630594521570739170
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 6c934817-840b-4564-8da8-88e8e12e8577
+        <Pos>k__BackingField: {x: 12053, y: 10246}
+        <Target>k__BackingField:
+          rid: 7630594521570739163
+    - rid: 7630594521570739171
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 82b2045f-68cd-4dc9-9470-a98c34acd6be
+        <Pos>k__BackingField: {x: 10740, y: 10980}
+        <Target>k__BackingField:
+          rid: 7630594521570739186
+    - rid: 7630594521570739172
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: fc1fcdde-3db6-4c0e-8ab1-df1cf689498c
+        <Pos>k__BackingField: {x: 10740, y: 10880}
+        <Target>k__BackingField:
+          rid: 7630594521570739183
+    - rid: 7630594521570739173
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 25d5e830-5f59-40f2-9683-17b00a90599c
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>not crimeScene_topShelf</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 11f20ab9-a206-4dab-9b99-c6eb192b4ac0
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739173
+          <Target>k__BackingField:
+            rid: 7630594521570739164
+    - rid: 7630594521570739174
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 22d69a8a-76cb-4889-9a58-cdc78d33a486
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>not crimeScene_woodenSpoon</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 6789355c-9765-498f-b4ea-7a9aaccbfe5e
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739174
+          <Target>k__BackingField:
+            rid: 7630594521570739162
+    - rid: 7630594521570739175
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 693caeed-074d-47f9-bd68-15299afe6de1
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>not crimeScene_marksPhoto and crimeScene_topShelf</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: c0f975d6-7221-4f0d-ab0b-c5a81527f45e
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739175
+          <Target>k__BackingField:
+            rid: 7630594521570739165
+    - rid: 7630594521570739176
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 526ebf6a-f522-41d9-9b2a-29a2d7c960a8
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>bobby_introduced</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: fd3815c1-1a8c-4aa1-a2f1-15a538ea3a90
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739176
+          <Target>k__BackingField:
+            rid: 7630594521570739172
+    - rid: 7630594521570739177
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 224399bc-0d49-4674-95b0-acf83fab7848
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: 
+        <Output>k__BackingField:
+          <Id>k__BackingField: 10bb0cc1-1fa4-4a00-87f3-905df8cf3d05
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739177
+          <Target>k__BackingField:
+            rid: 7630594521570739171
+    - rid: 7630594521570739178
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 8dc06a18-b52c-4507-aac8-babe316ef6ca
+        <Pos>k__BackingField: {x: 1740, y: 2480}
+        <Title>k__BackingField: <p>GOOD ENDING</p>
+        <RawContent>k__BackingField: <pre><code>resetAll()</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: green
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_16.mp4
+          <assetId>k__BackingField: 4f7ce2d4-d37f-435c-ad40-3217c8576e00
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 1aa2858e-6672-45c2-a96d-130f51d9894f
+          <RawLabel>k__BackingField: <p>Play again.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739178
+          <Target>k__BackingField:
+            rid: 7630594523290140675
+    - rid: 7630594521570739179
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: ecb49d31-6f05-48b6-800e-a62434f22e8b
+        <Pos>k__BackingField: {x: 340, y: 2740}
+        <Title>k__BackingField: <p>Accuse (both evidence)</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: green
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_14.mp4
+          <assetId>k__BackingField: 51dd5dae-d3a9-4876-bba6-1fe53ee3d005
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 2a471128-ab5b-4213-93db-70cc3b1056db
+          <RawLabel>k__BackingField: <p>Next.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739179
+          <Target>k__BackingField:
+            rid: 7630594521570739178
+    - rid: 7630594521570739180
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 5354a874-0f0f-4beb-9e93-cee9f2268876
+        <Pos>k__BackingField: {x: 340, y: 2380}
+        <Title>k__BackingField: <p>Accuse (only wooden spoon)</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: orange
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_13.mp4
+          <assetId>k__BackingField: 48433d11-eb76-4d82-b49e-d3d0bc634d4c
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: b0d30561-d689-4f95-98c4-f9f5a62bc556
+          <RawLabel>k__BackingField: <p>Next.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739180
+          <Target>k__BackingField:
+            rid: 7630594521570739187
+    - rid: 7630594521570739181
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 692c57ef-b7d4-4977-82ae-fe42f7e82f9b
+        <Pos>k__BackingField: {x: 340, y: 2020}
+        <Title>k__BackingField: <p>Accuse (only photos)</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: orange
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_12.mp4
+          <assetId>k__BackingField: a27a187d-d663-4fca-ac2b-ee40574ec8cb
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: ae56b4e1-865f-4aea-b9a3-bd76a4943f38
+          <RawLabel>k__BackingField: <p>Next.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739181
+          <Target>k__BackingField:
+            rid: 7630594521570739187
+    - rid: 7630594521570739182
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 65f47453-13f3-43c4-96c1-b9329e8d883d
+        <Pos>k__BackingField: {x: 340, y: 1660}
+        <Title>k__BackingField: <p>Accuse (no evidence)</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: red
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_11.mp4
+          <assetId>k__BackingField: d570bd4c-5d16-4c69-a704-cd3f02ace1c5
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: d051b75b-ab7c-4898-b4b3-90cc488fa4b6
+          <RawLabel>k__BackingField: <p>Next.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739182
+          <Target>k__BackingField:
+            rid: 7630594521570739187
+    - rid: 7630594521570739183
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 0ceca048-f6b6-4b2e-b95a-0cd3ccf12ad7
+        <Pos>k__BackingField: {x: 1140, y: 940}
+        <Title>k__BackingField: <p>BobbyLoop</p>
+        <RawContent>k__BackingField: <p></p>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_8.mp4
+          <assetId>k__BackingField: 5ca9d8cc-3960-4d5f-9b80-d3e5d2fb17d2
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 071df5ef-0124-4ca1-bd5a-b0bbddd39722
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739190
+        - <Id>k__BackingField: fbf372d9-5cce-47c6-8ed4-a49a665b5d00
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739189
+        - <Id>k__BackingField: 08c8164c-2ba8-44a1-993b-53912656c511
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739191
+        - <Id>k__BackingField: 5335b366-9b62-48f6-9bbb-388f10b6d611
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739192
+        - <Id>k__BackingField: e9701ccd-d5d3-4727-bbdb-78d89cb35bb7
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739193
+        - <Id>k__BackingField: 93e162b3-cbd8-4c46-a3a3-7e1aa2d62cbd
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739194
+        - <Id>k__BackingField: 71edc66a-43be-4795-8042-9439df107eae
+          <RawLabel>k__BackingField: <p>Step away.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739183
+          <Target>k__BackingField:
+            rid: 7630594521570739198
+    - rid: 7630594521570739184
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 5d8ef9a6-c2ea-4c42-98da-b15e1e403076
+        <Pos>k__BackingField: {x: 3080, y: 780}
+        <Title>k__BackingField: <p>Show him the photograph.</p>
+        <RawContent>k__BackingField: <pre><code>A_photo = true</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_9.mp4
+          <assetId>k__BackingField: bc490510-87f7-4897-8843-7d346093fd08
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: c75a0e73-0ad1-4c35-a55f-6e983b0bb8c7
+          <RawLabel>k__BackingField: <p>Back.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739184
+          <Target>k__BackingField:
+            rid: 7630594521570739197
+    - rid: 7630594521570739185
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 73bf74c3-b507-4582-a6e8-fdd0f2a74857
+        <Pos>k__BackingField: {x: 3080, y: 1160}
+        <Title>k__BackingField: <p>Show him the wood splinter.</p>
+        <RawContent>k__BackingField: <pre><code>A_woodenSpoon = true</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_10.mp4
+          <assetId>k__BackingField: 89ae7c8a-b0ff-43c8-89d3-1f5610113a3d
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 4b805f32-5fbc-480e-94ca-5adbd552634f
+          <RawLabel>k__BackingField: <p>Back.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739185
+          <Target>k__BackingField:
+            rid: 7630594521570739197
+    - rid: 7630594521570739186
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: df686f2f-a2f2-487c-a9aa-29ddf42c88ec
+        <Pos>k__BackingField: {x: 360, y: 1020}
+        <Title>k__BackingField: <p>Question the suspects.</p>
+        <RawContent>k__BackingField: <pre><code>bobby_introduced = true</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: cyan
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_7.mp4
+          <assetId>k__BackingField: 0abefe38-75e1-478c-8c59-9b906731f6ba
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 753d95bf-065d-4d06-918c-04eec1114964
+          <RawLabel>k__BackingField: <p>Next.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739186
+          <Target>k__BackingField:
+            rid: 7630594521570739183
+    - rid: 7630594521570739187
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 90ac0af5-c613-4aa1-b417-fe4bf4e0e800
+        <Pos>k__BackingField: {x: 1740, y: 2100}
+        <Title>k__BackingField: <p>FAIL ENDING</p>
+        <RawContent>k__BackingField: <pre><code>resetAll()</code></pre>
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: red
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 1
+          <filePath>k__BackingField: cake_15.mp4
+          <assetId>k__BackingField: c7be6106-2541-4af0-97df-ab4f7f2968e0
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField:
+        - <Id>k__BackingField: 46396c3c-fda9-4fe0-895c-4aadbfd14632
+          <RawLabel>k__BackingField: <p>Play again.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594521570739187
+          <Target>k__BackingField:
+            rid: 7630594523290140675
+    - rid: 7630594521570739188
+      type: {class: Element, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 78d1e97f-8fe4-4249-a22f-19692ce81526
+        <Pos>k__BackingField: {x: 10180, y: 10840}
+        <Title>k__BackingField: 
+        <RawContent>k__BackingField: 
+        <RuntimeContent>k__BackingField: 
+        <ColorTheme>k__BackingField: green
+        <Components>k__BackingField: []
+        <Attributes>k__BackingField: []
+        <cover>k__BackingField:
+          <type>k__BackingField: 0
+          <filePath>k__BackingField: 
+          <assetId>k__BackingField: 
+          <downloadedImage>k__BackingField: {fileID: 0}
+        <AudioAssets>k__BackingField: []
+        <Outputs>k__BackingField: []
+    - rid: 7630594521570739189
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 2feabc78-24e9-4779-988e-cc59aabe62b2
+        <Pos>k__BackingField: {x: 1540, y: 1000}
+        <Conditions>k__BackingField:
+        - rid: 7630594523290140676
+        <colorTheme>k__BackingField: cyan
+    - rid: 7630594521570739190
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: e13a8402-0eff-42ea-bddd-0ac8b3354823
+        <Pos>k__BackingField: {x: 1540, y: 1060}
+        <Conditions>k__BackingField:
+        - rid: 7630594523290140677
+        <colorTheme>k__BackingField: cyan
+    - rid: 7630594521570739191
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 6e855a3d-19de-4ab8-ab2a-b59171c40198
+        <Pos>k__BackingField: {x: 1540, y: 940}
+        <Conditions>k__BackingField:
+        - rid: 7630594523290140678
+        <colorTheme>k__BackingField: red
+    - rid: 7630594521570739192
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: ac2e9f2f-a553-4a31-94c5-54e5d0ab052a
+        <Pos>k__BackingField: {x: 1540, y: 1120}
+        <Conditions>k__BackingField:
+        - rid: 7630594523290140679
+        <colorTheme>k__BackingField: lightBlue
+    - rid: 7630594521570739193
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: c4feea58-7d15-4342-b31f-a724c579bb78
+        <Pos>k__BackingField: {x: 1540, y: 1180}
+        <Conditions>k__BackingField:
+        - rid: 7630594523290140680
+        <colorTheme>k__BackingField: lightBlue
+    - rid: 7630594521570739194
+      type: {class: Branch, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 16b61332-0414-4096-af12-6cd4f539429a
+        <Pos>k__BackingField: {x: 1540, y: 1240}
+        <Conditions>k__BackingField:
+        - rid: 7630594523290140681
+        <colorTheme>k__BackingField: red
+    - rid: 7630594521570739195
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: d56e0614-87ee-4353-8bdb-5a984d678657
+        <Pos>k__BackingField: {x: 2560, y: 980}
+        <Target>k__BackingField:
+          rid: 7630594521570739184
+    - rid: 7630594521570739196
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 6b14ccab-e43e-40a5-8f3a-1ae9f1dde3d7
+        <Pos>k__BackingField: {x: 2560, y: 1080}
+        <Target>k__BackingField:
+          rid: 7630594521570739185
+    - rid: 7630594521570739197
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 38436769-a85d-4d9d-bec0-80d910541661
+        <Pos>k__BackingField: {x: 3820, y: 1100}
+        <Target>k__BackingField:
+          rid: 7630594521570739183
+    - rid: 7630594521570739198
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 33c6eb96-83a1-4461-afa8-d92269c3e439
+        <Pos>k__BackingField: {x: 1540, y: 1320}
+        <Target>k__BackingField:
+          rid: 7630594521570739160
+    - rid: 7630594521570739199
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 839e86a0-5da9-4c5b-97a5-43722c771b08
+        <Pos>k__BackingField: {x: 2560, y: 880}
+        <Target>k__BackingField:
+          rid: 7630594521570739182
+    - rid: 7630594523290140672
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: bf7845be-1687-4d93-a48a-58ebe93f11ac
+        <Pos>k__BackingField: {x: 2560, y: 1180}
+        <Target>k__BackingField:
+          rid: 7630594521570739181
+    - rid: 7630594523290140673
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 70557e8d-9baa-42c0-95a9-b27f134abf4f
+        <Pos>k__BackingField: {x: 2560, y: 1280}
+        <Target>k__BackingField:
+          rid: 7630594521570739180
+    - rid: 7630594523290140674
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: a80ff2c4-0f65-45ee-b7f3-07ad9db94656
+        <Pos>k__BackingField: {x: 2560, y: 1380}
+        <Target>k__BackingField:
+          rid: 7630594521570739179
+    - rid: 7630594523290140675
+      type: {class: Jumper, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: e79db790-db41-458e-8d62-e97c4ba652d6
+        <Pos>k__BackingField: {x: 3180, y: 2380}
+        <Target>k__BackingField:
+          rid: 7630594521570739161
+    - rid: 7630594523290140676
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 4f82cffa-49b8-4000-8389-183b05a49f4f
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>crimeScene_marksPhoto and not A_photo</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 42ea4dc4-0cba-4f7d-bc26-6e724d96ba00
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594523290140676
+          <Target>k__BackingField:
+            rid: 7630594521570739195
+    - rid: 7630594523290140677
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 3636d387-3235-4893-b6a2-a6c2d3b678b5
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>crimeScene_woodenSpoon and not A_woodenSpoon</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 4d1cf343-e740-4284-aeeb-226f050fbd62
+          <RawLabel>k__BackingField: 
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594523290140677
+          <Target>k__BackingField:
+            rid: 7630594521570739196
+    - rid: 7630594523290140678
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: e3cf57d8-f4e7-4aa2-b739-a8b42f5def8b
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>not crimeScene_woodenSpoon and not crimeScene_marksPhoto</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 64d395ed-329c-4a4e-b45b-3124a9659390
+          <RawLabel>k__BackingField: <p>Accuse BOBBY.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594523290140678
+          <Target>k__BackingField:
+            rid: 7630594521570739199
+    - rid: 7630594523290140679
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: dbf156b0-898e-4536-9a6a-66fae2cf79ac
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>A_photo and not crimeScene_woodenSpoon</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 4e1ac6e6-0b46-41a9-a277-31670746ff66
+          <RawLabel>k__BackingField: <p>Accuse BOBBY.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594523290140679
+          <Target>k__BackingField:
+            rid: 7630594523290140672
+    - rid: 7630594523290140680
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: fb823678-6be8-4025-af6c-02de5aaa11a3
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>A_woodenSpoon and not crimeScene_marksPhoto</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: 68ffc1ea-5101-4cbf-9c93-b9305e9183a5
+          <RawLabel>k__BackingField: <p>Accuse BOBBY.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594523290140680
+          <Target>k__BackingField:
+            rid: 7630594523290140673
+    - rid: 7630594523290140681
+      type: {class: Condition, ns: Arcweave.Project, asm: ArcweavePlugin}
+      data:
+        <Id>k__BackingField: 03465fc2-4aa6-4aaa-964b-4e7e8fdbb5e7
+        <Pos>k__BackingField: {x: 0, y: 0}
+        <Script>k__BackingField: <pre><code>A_woodenSpoon and A_photo</code></pre>
+        <Output>k__BackingField:
+          <Id>k__BackingField: e3a88036-5c88-4405-b1fc-01135f7b27b5
+          <RawLabel>k__BackingField: <p>Accuse BOBBY.</p>
+          <RuntimeLabel>k__BackingField: 
+          <Source>k__BackingField:
+            rid: 7630594523290140681
+          <Target>k__BackingField:
+            rid: 7630594523290140674
